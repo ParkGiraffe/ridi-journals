@@ -1,15 +1,15 @@
 import React from 'react';
-import './App.css';
+import './Popup.css';
 
-function App() {
+function Popup() {
   return (
-    <div className="App">
-      <header className="App-header">
+    <div className="Popup">
+      <header className="Popup-header">
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Edit <code>src/Popup.tsx</code> and save to reload.
         </p>
         <a
-          className="App-link"
+          className="Popup-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
@@ -21,5 +21,5 @@ function App() {
   );
 }
 
-export default App;
+export default Popup;
 
