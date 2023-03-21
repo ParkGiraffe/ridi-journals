@@ -19,5 +19,12 @@
     "default_popup": "popup.html",
     "default_title": "Ridi Bookmark"
   },
-  "options_page": "index.html"
+  "options_page": "index.html",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+	    "all_frames": true,
+      "js": ["script.js"]
+    }
+  ]
 }
