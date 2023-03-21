@@ -5,5 +5,5 @@ function getDom(document_body) {
 
 chrome.runtime.sendMessage({
   action: "getSource",
-  source: getDom(document.body),
+  source: getDom(document.querySelector('#page_reading_note_detail > article > div.css-18obxw2 > ul')),
 });
