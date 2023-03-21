@@ -1,1 +1,24 @@
-const hello = () => console.log(hello);
+chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
+  if (request.action === 'CHECK') {
+    console.log('yes')
+    chrome.tabs.query({ active: true, lastFocusedWindow: true }, ([tab]) => { // 두 번째 인수로 length가 1인 Array에 현재 포커스 중인 탭이 담긴다. 비구조화 [tab]을 해서, tab에 변수에 저장하자.
+      console.log(tab);
+      const url = tab.url;
+      // const HTML = returnHTML(url);
+      console.log(url);
+    });
+  }
+});
+
+// const returnHTML = async (url) => {
+//   let HTML = await getHTML(url);
+//   return HTML.data;
+// };
+
+// const getHTML = async (url) => {
+//   try {
+//     return await axios.get(url);
+//   } catch (error) {
+//     console.log(error);
+//   }
+// };

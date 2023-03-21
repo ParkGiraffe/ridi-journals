@@ -1,25 +1,18 @@
-import React from 'react';
-import './Popup.css';
+import React, { useEffect } from "react";
+import "./Popup.css";
 
 function Popup() {
+  const buttonHandelr = (event: React.MouseEvent) => {
+    event.preventDefault();
+    chrome.runtime.sendMessage({ action: "CHECK" });
+    console.log("execute");
+  };
+
   return (
     <div className="Popup">
-      <header className="Popup-header">
-        <p>
-          Edit <code>src/Popup.tsx</code> and save to reload.
-        </p>
-        <a
-          className="Popup-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button onClick={buttonHandelr}>crawl hilights in this page</button>
     </div>
   );
 }
 
 export default Popup;
-

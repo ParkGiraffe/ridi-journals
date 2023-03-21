@@ -1,4 +1,4 @@
-	{
+{
   "name": "Ridi Bookmark Extension",
   "version": "0.0.1",
   "manifest_version": 2,
@@ -6,17 +6,18 @@
   "icons": {
     "128": "logo192.png"
   },
-  "permissions": [],
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
   "background": {
-    "scripts": [
-      "background.js"
-    ],
+    "scripts": ["background.js"],
     "persistent": true
   },
   "browser_action": {
     "default_icon": "logo192.png",
     "default_popup": "popup.html",
-    "default_title" : "Ridi Bookmark"
+    "default_title": "Ridi Bookmark"
   },
   "options_page": "index.html"
 }
