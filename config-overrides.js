@@ -33,6 +33,7 @@ const copyPlugin = new CopyPlugin({
     // { from: "public", to: "" },
     { from: "src/background.js", to: "" },
     { from: "src/script.js", to: "" },
+    { from: "src/getDom.js", to: "" },
   ],
 });
 

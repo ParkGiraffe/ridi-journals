@@ -6,10 +6,7 @@
   "icons": {
     "128": "logo192.png"
   },
-  "permissions": [
-    "tabs",
-    "activeTab"
-  ],
+  "permissions": ["tabs", "activeTab", "<all_urls>"],
   "background": {
     "scripts": ["background.js"],
     "persistent": true
@@ -23,7 +20,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
-	    "all_frames": true,
+      "all_frames": true,
       "js": ["script.js"]
     }
   ]

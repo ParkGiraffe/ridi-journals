@@ -6,6 +6,14 @@ function Popup() {
     event.preventDefault();
     chrome.runtime.sendMessage({ action: "CHECK" });
     console.log("execute");
+
+    chrome.runtime.onMessage.addListener(function (request, sender) {
+      console.log(request.source);
+      if (request.action == "getSource") {
+        console.log(request.source);
+        document.body.innerText = request.source;
+      }
+    });
   };
 
   return (
