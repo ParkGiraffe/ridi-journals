@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from "react";
+import Container from "./component/Container";
+import Counter from "./component/Couner";
 import "./Popup.css";
 
 function Popup() {
@@ -21,13 +23,12 @@ function Popup() {
   };
 
   return (
-    <div className="Popup">
-      <button onClick={crawlButtonHandler}>crawl hilights</button>
-      <button onClick={copyButtonHandler}>copy hilights</button>
-      {texts.map((text) => (
-        <p>{text}</p>
-      ))}
-    </div>
+      <Container>
+        <Counter>모은 독서노트 개수 : {texts.length}개</Counter>
+        <button onClick={crawlButtonHandler}>독서노트 모으기</button>
+        <button onClick={copyButtonHandler}>클립보드에 복사하기</button>
+        <p>Made by ParkGiraffe</p>
+      </Container>
   );
 }
 
