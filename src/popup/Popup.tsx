@@ -1,13 +1,14 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
+import Buttons from "./component/Buttons/Buttons";
 import Container from "./component/Container";
 import Counter from "./component/Couner";
+import Manufacturer from "./component/Manufacturer";
 import "./Popup.css";
 
 function Popup() {
   const [texts, setTexts] = useState<string[]>([]);
 
-  const crawlButtonHandler = (event: React.MouseEvent) => {
-    // event.preventDefault();
+  const crawlButtonHandler = () => {
     chrome.runtime.sendMessage({ action: "CHECK" });
 
     chrome.runtime.onMessage.addListener(function (request, sender) {
@@ -23,12 +24,11 @@ function Popup() {
   };
 
   return (
-      <Container>
-        <Counter>모은 독서노트 개수 : {texts.length}개</Counter>
-        <button onClick={crawlButtonHandler}>독서노트 모으기</button>
-        <button onClick={copyButtonHandler}>클립보드에 복사하기</button>
-        <p>Made by ParkGiraffe</p>
-      </Container>
+    <Container>
+      <Counter>모은 독서노트 갯수 : {texts.length}개</Counter>
+      <Buttons onCopy={copyButtonHandler} onCrawl={crawlButtonHandler} />
+      <Manufacturer>Made by ParkGiraffe</Manufacturer>
+    </Container>
   );
 }
 
