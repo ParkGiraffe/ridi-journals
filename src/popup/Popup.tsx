@@ -27,7 +27,7 @@ function Popup() {
     <Container>
       <Counter>모은 독서노트 갯수 : {texts.length}개</Counter>
       <Buttons onCopy={copyButtonHandler} onCrawl={crawlButtonHandler} />
-      <Manufacturer>Made by ParkGiraffe</Manufacturer>
+      <Manufacturer href="https://arnopark.tistory.com/" target="_blank">Made by ParkGiraffe</Manufacturer>
     </Container>
   );
 }

@@ -12,6 +12,7 @@ const Container = styled.div`
   margin-bottom: -1em;
 
   padding-top: 20px;
+  padding-bottom: 10px;
 
   display: flex;
   flex-direction: column;
