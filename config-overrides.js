@@ -34,7 +34,7 @@ const copyPlugin = new CopyPlugin({
     { from: "src/script/background.js", to: "" },
     { from: "src/script.js", to: "" },
     { from: "src/script/getDom.js", to: "" },
-    { from: "src/script/pressButton.js", to: "" },
+    // { from: "src/script/pressButton.js", to: "" },
     // { from: "src/script/getCount.js", to: "" },
   ],
 });
@@ -43,3 +43,5 @@ module.exports = {
   webpack: override(addWebpackPlugin(copyPlugin), multipleEntry.addMultiEntry),
   devServer: overrideDevServer(devServerConfig()),
 };
+
+
