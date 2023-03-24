@@ -6,7 +6,7 @@
   "icons": {
     "128": "logo192.png"
   },
-  "permissions": ["tabs", "activeTab", "scripting"],
+  "permissions": ["tabs", "activeTab", "scripting", "alarms"],
   "host_permissions": ["https://ridibooks.com/reading-note/"],
   "background": {
     "service_worker": "background.js",
