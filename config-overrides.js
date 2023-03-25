@@ -32,7 +32,7 @@ const copyPlugin = new CopyPlugin({
   patterns: [
     // { from: "public", to: "" },
     { from: "src/script/background.js", to: "" },
-    { from: "src/script.js", to: "" },
+    // { from: "src/script.js", to: "" },
     { from: "src/script/getDom.js", to: "" },
     { from: "src/script/pressButton.js", to: "" },
     // { from: "src/script/getCount.js", to: "" },

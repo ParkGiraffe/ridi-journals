@@ -45,7 +45,7 @@ function Popup() {
         onCrawl={crawlButtonHandler}
         onMore={clickButtonHandler}
       />
-      <Manufacturer href="https://arnopark.tistory.com/" target="_blank">
+      <Manufacturer href="https://arnopark.tistory.com/626" target="_blank">
         Made by ParkGiraffe
       </Manufacturer>
     </Container>
