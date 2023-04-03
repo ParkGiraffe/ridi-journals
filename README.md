@@ -2,9 +2,9 @@
 
 <br/>
 
-
-![](https://blog.kakaocdn.net/dn/bQkvGO/btr60v1ml13/sdjitxhe3UhKQmQQKkaDp0/img.png){: width="300" height="300"}
-
+<p align='center' >
+<img src="https://blog.kakaocdn.net/dn/bQkvGO/btr60v1ml13/sdjitxhe3UhKQmQQKkaDp0/img.png" width="350" height="350"/>
+</p>
 
 
 안녕하세요. 박기린 입니다.
