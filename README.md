@@ -12,8 +12,6 @@
 이 프로그램은 무엇이며, 어떻게 사용하는 지에 대해 알려드리겠습니다.
 
 <br/>
-<br/>
-<br/>
 
 ---
 
@@ -21,8 +19,6 @@
 
 **크롬 웹 스토어 링크 : [https://chrome.google.com/webstore/detail/ridi-journals/nnoenkkonhieiadnloppmapbnboabbmh](https://chrome.google.com/webstore/detail/ridi-journals/nnoenkkonhieiadnloppmapbnboabbmh)**
 
-<br/>
-<br/>
 <br/>
 
 ---
@@ -41,7 +37,6 @@
 이 번거로운 문제를 없애주는 프로그램을 만들고 싶었습니다.
 
 <br/>
-<br/>
 
 
 ### **\- 목적**
@@ -50,7 +45,7 @@
 
 <br/>
 <br/>
-<br/>
+
 
 ---
 
@@ -63,7 +58,6 @@
 
 <br/>
 <br/>
-<br/>
 
 ---
 
@@ -73,7 +67,6 @@
 
 
 
-<br/>
 <br/>
 <br/>
 
@@ -97,7 +90,6 @@
 "web-vitals": "^2.1.4"
 ```
 
-<br/>
 <br/>
 <br/>
 
