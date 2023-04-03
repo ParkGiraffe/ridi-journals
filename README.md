@@ -1,47 +1,111 @@
-# Getting Started with Create React App
+## \[RIDI-Journals\] 리디북스의 독서노트 글귀를 복사하는 크롬 확장프로그램
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<br/>
 
-## Available Scripts
+![](https://blog.kakaocdn.net/dn/bQkvGO/btr60v1ml13/sdjitxhe3UhKQmQQKkaDp0/img.png)
 
-In the project directory, you can run:
+안녕하세요. 박기린 입니다.
+이번에 직접 [**RIDI-Journals**]라는 프로그램을 개발하여, 크롬 웹 스토어에 출시를 했습니다.
+이 프로그램은 무엇이며, 어떻게 사용하는 지에 대해 알려드리겠습니다.
 
-### `npm start`
+<br/>
+<br/>
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## **\[RIDI-Journals\] 다운로드 경로**
 
-### `npm test`
+**크롬 웹 스토어 링크 : [https://chrome.google.com/webstore/detail/ridi-journals/nnoenkkonhieiadnloppmapbnboabbmh](https://chrome.google.com/webstore/detail/ridi-journals/nnoenkkonhieiadnloppmapbnboabbmh)**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<br/>
+<br/>
+<br/>
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## **제작동기 & 목적**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### **\- 제작동기**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![](https://blog.kakaocdn.net/dn/bdyZb3/btr6ZzJHSxM/4xNYfvc9eXUxtNlafIKeGK/img.png)
 
-### `npm run eject`
+리디북스의 독서노트 글귀들을 따로 모아서 정리하고 싶었는데, 형광펜을 칠한 글귀가 너무 많아 한 번에 복사하려니 문제가 발생했습니다.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+> 1\. 복사한 글자의 일부분이 끊겨서 나옵니다.  
+> 2\. 추가 메모, 날짜 부분이 같이 복사가 됩니다.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+이 번거로운 문제를 없애주는 프로그램을 만들고 싶었습니다.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<br/>
+<br/>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### **\- 목적**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+리디북스의 **독서노트 글귀**를 한 번에 깔끔하게 복사해주는 **크롬 확장프로그램**을 제작합니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-# ridi-bookmark
+<br/>
+<br/>
+<br/>
+
+---
+
+## **깃허브 & 사용설명서 링크**
+
+**RIDI-Journals 사용설명서 주소 : [https://arnopark.tistory.com/626](https://arnopark.tistory.com/626)**
+
+### **사용설명서는 꼭 읽어주시길 바랍니다.**
+
+
+<br/>
+<br/>
+<br/>
+
+---
+
+## **프로그램 실행 화면**
+
+![](https://blog.kakaocdn.net/dn/bnrPkA/btr61mJmXVP/Wb90XSHHe5v4GQ9ugR9bt0/img.png)
+
+
+
+<br/>
+<br/>
+<br/>
+
+---
+
+## **기술 스택**
+```
+"@testing-library/jest-dom": "^5.16.5",
+"@testing-library/react": "^13.4.0",
+"@testing-library/user-event": "^13.5.0",
+"@types/chrome": "^0.0.224",
+"@types/jest": "^27.5.2",
+"@types/node": "^16.18.16",
+"@types/react": "^18.0.28",
+"@types/react-dom": "^18.0.11",
+"react": "^18.2.0",
+"react-dom": "^18.2.0",
+"react-scripts": "5.0.1",
+"styled-components": "^5.3.9",
+"typescript": "^4.9.5",
+"web-vitals": "^2.1.4"
+```
+
+<br/>
+<br/>
+<br/>
+
+---
+
+## **제작과정 및 에러/오류 해결과정**
+
+추후 글 작성 예정
+
+<br/>
+
+#### **프로그램 질문 및 오류 제보는 임시로 이 글([https://arnopark.tistory.com/629](https://arnopark.tistory.com/629))의 댓글로 받겠습니다.**
+
+**추후 Q&A 및 오류 전용 글을 마련하도록 하겠습니다.**

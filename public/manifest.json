@@ -8,7 +8,7 @@
     "48": "logo48.png",
     "128": "logo128.png"
   },
-  "permissions": ["tabs", "activeTab", "scripting"],
+  "permissions": ["scripting"],
   "host_permissions": ["https://ridibooks.com/reading-note/"],
   "background": {
     "service_worker": "background.js",
