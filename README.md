@@ -2,7 +2,10 @@
 
 <br/>
 
-![](https://blog.kakaocdn.net/dn/bQkvGO/btr60v1ml13/sdjitxhe3UhKQmQQKkaDp0/img.png)
+
+![](https://blog.kakaocdn.net/dn/bQkvGO/btr60v1ml13/sdjitxhe3UhKQmQQKkaDp0/img.png){: width="300" height="300"}
+
+
 
 안녕하세요. 박기린 입니다.
 이번에 직접 [**RIDI-Journals**]라는 프로그램을 개발하여, 크롬 웹 스토어에 출시를 했습니다.
