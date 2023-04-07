@@ -10,19 +10,10 @@ chrome.runtime.onMessage.addListener(async function (
       active: true,
       currentWindow: true,
     });
-    // console.log(activeTab.id);
     chrome.scripting.executeScript({
       target: { tabId: activeTab.id },
       files: ["getDom.js"],
     });
-
-    // chrome.tabs.executeScript(null, { file: "getDom.js" }, function () {
-    //   if (chrome.extension.lastError) {
-    //     document.body.innerText =
-    //       "There was an error injecting script : \n" +
-    //       chrome.extension.lastError.message;
-    //   }
-    // });
   }
 });
 

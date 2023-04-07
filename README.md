@@ -96,8 +96,7 @@
 ---
 
 ## **제작과정 및 에러/오류 해결과정**
-
-추후 글 작성 예정
+[개발 일지 링크](https://arnopark.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/RIDI-Journals)
 
 <br/>
 
