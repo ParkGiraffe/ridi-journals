@@ -96,7 +96,7 @@
 ---
 
 ## **제작과정 및 에러/오류 해결과정**
-|id  |title  | Link |
+|id  |title  | link |
 |----|-------|------|
 |1   |기초 설정하기|https://arnopark.tistory.com/635|
 |2   |크롤링 기능 구현하기|https://arnopark.tistory.com/636
