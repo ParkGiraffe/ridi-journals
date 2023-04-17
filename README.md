@@ -96,7 +96,16 @@
 ---
 
 ## **제작과정 및 에러/오류 해결과정**
-[개발 일지 링크](https://arnopark.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/RIDI-Journals)
+|id  |title  | Link |
+|----|-------|------|
+|1   |기초 설정하기|https://arnopark.tistory.com/635|
+|2   |크롤링 기능 구현하기|https://arnopark.tistory.com/636
+|3   |팝업 UI 디자인 만들기|https://arnopark.tistory.com/637
+|4   |더보기 버튼 기능 구현하기|https://arnopark.tistory.com/638
+|5   |아이콘 디자인 만들기|https://arnopark.tistory.com/640
+|6   |크롬 웹 스토어에 출시하기|https://arnopark.tistory.com/641
+
+[개발 일지 블로그 카테고리](https://arnopark.tistory.com/category/%EA%B0%9C%EB%B0%9C%EC%9D%BC%EC%A7%80/RIDI-Journals)
 
 <br/>
 

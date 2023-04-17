@@ -14,6 +14,5 @@ function getDom(domTexts) {
 
 chrome.runtime.sendMessage({
   action: "GET_DOM",
-  // source: getDom(document.querySelector('#page_reading_note_detail > article > div.css-18obxw2 > ul')),
   source: getDom(document.querySelectorAll('.css-135eg6y')),
 });
